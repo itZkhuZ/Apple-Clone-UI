@@ -1,0 +1,104 @@
+.landing-page {
+  width: 100vw;
+}
+
+.donate-support {
+  background-color: #f7f7f7;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+
+.donate-support > img {
+  width: 10%;
+}
+
+.MacbookAirM2-LP > img {
+  margin-right: 15%;
+  width: 40%;
+}
+
+.MacbookAirM2-LP > div {
+  margin-top: 12%;
+  margin-left: 15%;
+  text-align: center;
+  align-items: center;
+}
+
+.MacbookAirM2-LP > div > h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.MacbookAirM2-LP {
+  display: flex;
+  background-color: rgb(250, 250, 250);
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-inline: 10px;
+  font-weight: 400;
+}
+
+.WatchS7-LP {
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  margin-top: 20px;
+  align-items: center;
+}
+
+.WatchS7-LP-Links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 30vw;
+}
+
+.SCForCollege-LP {
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 951px) {
+  .MacbookAirM2-LP {
+    display: grid;
+    text-align: center;
+  }
+
+  .MacbookAirM2-LP > img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .MacbookAirM2-LP > div > h1 {
+    margin-left: -20%;
+  }
+  .MacbookAirM2-LP > div > .row-nospace > h2 {
+    margin-left: -1vw;
+  }
+  .MacbookAirM2-LP > div > .row-around {
+    margin-left: -20%;
+  }
+
+  .donate-support {
+    display: grid;
+    text-align: center;
+    align-self: center;
+  }
+
+  .donate-support > img {
+    width: 20%;
+    margin-left: 40%;
+  }
+}

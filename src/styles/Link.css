@@ -1,0 +1,19 @@
+.Link {
+  color: #007cce;
+  text-decoration: none;
+  margin-top: 7px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.Link > p {
+  font-weight: 500;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
+.Link > .MuiSvgIcon-root {
+  width: 15px;
+}
